@@ -1,0 +1,296 @@
+*{
+    box-sizing: border-box;  
+}
+.container{
+    width:100%;
+    background-image: url(img/Group\ 2.png);
+    margin: 0 auto;
+}
+.logo{
+  display: inline;
+  float: left;
+  margin: 15px;
+}
+/*Flex right start*/
+.flexR{
+    display:flex; 
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+.flexR > div{
+    margin: 15px;
+    font-size: 20px;
+    padding: 5px 15px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home{
+    color: rgb(64, 61, 241);
+    border-bottom: 2px solid rgb(64, 61, 241);
+    padding: 0 7px 2px 5px;
+}
+.button1{
+    background-color: rgb(255, 153, 0);
+    color: whitesmoke;
+    padding: 7px 15px;
+    font-size: 19px;
+    font-weight: bold;
+    border: 1px solid rgb(255, 153, 0);;
+}
+/*Flex right end*/
+/* Container2 start*/
+.container2{
+    display: flex;
+    padding-left: 150px;
+}
+.container2 > div{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+.bill{
+    color: rgb(64, 61, 241);
+    border-bottom:2px solid rgb(64, 61, 241);
+    padding: 0 7px 2px 5px;
+}
+/*Hover start*/
+a{
+    display: inline;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(64, 61, 241);
+    border-bottom:2px solid rgb(64, 61, 241);
+   padding-bottom: 2px;
+}
+button:hover{
+    color: black;
+    background-color: #79888f;
+    border: 1px solid #79888f;
+}
+/*Hover end*/
+/* Container2 end*/
+/* Container3 start*/
+
+/*Down Symbol*/
+.fa-angle-down{
+    float: right;
+    font-weight: bold;  
+}
+/*Down Symbol ends*/
+.container3{
+    width: 55%;
+    height: 140px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(184, 180, 180);
+    border-radius: 10px;
+    margin-left: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container3 > div{
+    font-size: 20px;
+}
+.city{
+    padding: 20px 10px 0 10px ;
+    width: 20%;
+    height: 65px;
+    float: left;
+    border-right: 1px solid rgb(206, 206, 206);
+    border-bottom: 2px solid rgb(206, 206, 206);
+    border-radius: 10px 0 0 0;
+}
+/* First input text start*/
+.SEAR1{
+    color: rgb(0, 0, 0);
+    padding: 10px 0 10px 20px;
+    width: 60%;
+    height: 65px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 2px solid rgb(206, 206, 206);
+    float: left;
+    font-size: 20px;
+    outline: none;
+}
+/* First input text ends*/
+.button2{
+    background-color: rgb(255, 153, 0);
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    border: 1px solid rgb(255, 153, 0);
+    text-align: center;
+    border-radius: 0 10px 0 0;
+    width: 20%;
+    height: 65px;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    float: left;
+}
+select{
+    width: 26%;
+    height: 45px;
+    border: 1px solid rgb(206, 206, 206);
+    float: left;
+    padding: 10px;
+    margin: 15px;
+    font-size: 20px;
+    background-color: white;
+    outline: none;
+}
+/* Container3 end*/
+/*Container4 Start*/
+.container4 > div{
+    font-size: 20px;
+}
+.container4{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(96, 77, 202);
+    padding: 50px 0 0 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.chennai{
+    width: 16%;
+    border-bottom: 2px solid rgb(206, 206, 206);
+    float: left;
+    margin-right: 45px;
+    color: whitesmoke;
+    padding-bottom: 8px; 
+}
+.SEAR2{
+    width: 30%;
+    border-bottom: 2px solid rgb(206, 206, 206);
+    float: left;
+    margin-right: 45px;
+    color: whitesmoke;
+    padding-bottom: 8px;
+    font-size: 20px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    background: none;
+    outline: none;
+}
+.SEAR2::placeholder{
+    color: rgb(255, 234, 234);
+}
+.hoard{
+    width: 17%;
+    border-bottom: 2px solid rgb(206, 206, 206);
+    float: left;
+    margin-right: 45px;
+    color: whitesmoke; 
+    padding-bottom: 8px;
+}
+.availability{
+    width: 16%;
+    border-bottom: 2px solid rgb(206, 206, 206);
+    float: left;
+    margin-right: 45px;
+    color: whitesmoke; 
+    padding-bottom: 8px;
+}
+.button3{
+    background-color: rgb(255, 153, 0);
+    color: whitesmoke; 
+    width: 6%;
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid rgb(255, 153, 0);
+}
+.S2{
+    color: whitesmoke; 
+    border: 3px solid whitesmoke;
+    float: left;
+    text-align: center;
+    padding: 0 10px;
+}
+/*Container 4 end */
+/*Container 5 Start */
+.container5{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(82, 82, 82);
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 38px;
+    
+}
+.About{
+    width: 31%;
+    float:left;
+    line-height:1.9;
+    margin-right: 70px;
+}
+.Contact{
+    width: 26%;
+    float:left;
+    line-height:1.9;
+    margin-right: 70px;
+}
+.news{
+    width: 35%;
+    float:left;
+    line-height:1.5;
+}
+/*Form*/
+input[type=email]{
+    font-size: 20px;
+    display: inline;
+    width: 78%;
+    padding: 12px;
+    border: 1px solid whitesmoke;
+    outline: none;
+}
+.button4{
+    font-size: 20px;
+    display: inline;
+    padding: 12px 35px 12px 35px;
+    border: 1px solid rgb(255, 187, 0);
+    background-color: rgb(255, 187, 0);
+    color: whitesmoke; 
+}
+#fa{
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    padding: 8px;
+    margin-right: 5px;
+    display: inline-block;
+}
+/*Form*/
+/*Container 5 end */
+/*Container 6 start*/
+.container6{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(34, 34, 34);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(194, 189, 189);
+}
+.container6 > div{
+    float: left;
+}
+.Left{
+    font-size: 30px;
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    border-right: 1px solid white;
+    padding: 20px 70px 0 70px;
+}
+.Right{
+    margin: 0 30px;
+    font-size: 30px;
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    padding: 20px 20px 0 20px;
+}
+
+/*Container 6 end*/
